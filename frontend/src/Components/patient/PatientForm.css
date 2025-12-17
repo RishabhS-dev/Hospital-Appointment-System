@@ -1,0 +1,35 @@
+.patient-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.patient-form h2 {
+  text-align: center;
+}
+
+.patient-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.patient-form label {
+  margin-bottom: 10px;
+}
+
+.patient-form input {
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.patient-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.patient-form button:hover {
+  background-color: #0056b3;
+}
